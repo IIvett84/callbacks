@@ -28,17 +28,6 @@ const names = ["Adam", "Evi", "Lilla"];
 
 each(names, test);
 
-/*
-  {
-    arr = names;
-    cb = upper;
-    for (let i = 0; i < arr.length; i++) {
-      const item = arr[i];
-    cb(item);
-    }
-  }
-*/
-
 const kittens = [
   {
     id: "385",

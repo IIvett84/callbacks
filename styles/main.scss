@@ -1,0 +1,32 @@
+$input-padding: .5rem;
+$input-font: 1rem;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+#kitten-creator {
+  margin: 2rem;
+  padding: 1rem;
+  
+  form {
+    display: grid;
+    gap: 1rem;
+
+    .control {
+      padding: $input-padding;
+      font-size: $input-font;
+    }
+
+    button[type='submit'] {
+      font-size: $input-font;
+      padding: $input-padding;
+    }
+  }
+}
+
